@@ -10,7 +10,7 @@ import Nextjs from "@/public/images/Floaters/next.svg"
 const Hero = () => {
     return (
         <div className='max-w-8xl h-[700px] flex items-center justify-center gap-2 rounded-3xl bg-blue-100 p-10 shadow-2xl bg-[url("/images/hero-bg.jpg")] bg-cover bg-center bg-no-repeat '>
-            <div className='w-1/2 px-5 filter backdrop-filter backdrop-blur-lg rounded-2xl py-10'>
+            <div className='w-1/2 px-5 bg-white/70 rounded-2xl py-10'>
                 <div className='flex flex-col items-center justify-center gap-5 text-left'>
                     <h1>One Stop solution with Latest Cutting Edge Technologies</h1>
                     <h3>Discover premier Software Development Solutions with Alpha Solutions.</h3>
