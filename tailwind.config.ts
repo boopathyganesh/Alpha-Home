@@ -17,7 +17,7 @@ const config: Config = {
         'tilt-shaking': 'tilt-shaking .5s infinite linear',
         'move-shaking': 'tilt-n-move-shaking 1s infinite linear',
         'jello-vertical': 'jello-vertical 3s both infinite',
-        'wobble-right': 'wobble-ver-right 3s both infinite'
+        'wobble-right': 'wobble-ver-right 3s both infinite',
       },
       colors: {
         primary: {
