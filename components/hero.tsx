@@ -13,9 +13,9 @@ const Hero = () => {
         <div className='max-w-8xl h-[700px] flex items-center justify-center gap-2 rounded-3xl bg-blue-100 p-10 shadow-2xl bg-[url("/images/hero-bg.jpg")] bg-cover bg-center bg-no-repeat '>
             <div className='w-1/2 px-5 bg-white/70 rounded-2xl py-10'>
                 <div className='flex flex-col items-center justify-center gap-5 text-left'>
-                    <h1>One Stop solution with Latest Cutting Edge Technologies</h1>
-                    <h3>Discover premier Software Development Solutions with Alpha Solutions.</h3>
-                    <p>Our expert developers understand your unique business needs and are committed to delivering excellence worldwide. Let us turn your vision into reality.</p>
+                    <h1 className='text-3xl font-semibold text-blue-500'>One Stop solution with Latest Cutting Edge Technologies</h1>
+                    <h3 className='text-xl font-medium text-blue-400'>Discover premier Software Development Solutions with Alpha Solutions.</h3>
+                    <p className='text-base'>Our expert developers understand your unique business needs and are committed to delivering excellence worldwide. Let us turn your vision into reality.</p>
                 </div>
                 <div className='flex items-center justify-start gap-5 mt-10'>
                     <Button>Get Started</Button>

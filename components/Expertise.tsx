@@ -5,7 +5,7 @@ export default function Expertise() {
     <section className="max-w-4xl my-20">
       <div className="flex items-start justify-center">
         <div className="w-1/2">
-          <h1 className="text-4xl leading-tight">
+          <h1 className="text-4xl leading-tight ">
             The best software teams ship early and often
           </h1>
         </div>
