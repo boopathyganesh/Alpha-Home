@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 export const BackUp=[
     {
         image: "/images/3D/worldclass.png", title: "World-Class Partner", description: "Keep things moving from anywhere with our top-rated mobile hiring app."
@@ -20,3 +21,9 @@ export const BackUp=[
     
 
 ]
+
+export interface CardProps {
+    image: string | StaticImageData;
+    title: string;
+    description: string;
+  }
